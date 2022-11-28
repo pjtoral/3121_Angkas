@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Angkas {
 	
-	private static final int arraySize = 100;
+	private static final int arraySize = 1000;
 	
 	private static Location[] locations = new Location[arraySize];
 	private static Driver[] drivers = new Driver[arraySize];
