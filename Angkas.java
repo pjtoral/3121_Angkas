@@ -54,6 +54,8 @@ public class Angkas {
 	
 	private static int displayMenu() {
 		
+		System.out.println("0. Exit");
+
 		System.out.println("1. Add Driver");
 		System.out.println("2. Delete Driver");
 		System.out.println("3. Display Drivers");
@@ -68,8 +70,7 @@ public class Angkas {
 		System.out.println("9. Make a Booking");
 		System.out.println("10. Complete a Booking");
 		System.out.println("11. Display Active Bookings");
-		
-		System.out.println("0. Exit");
+
 		System.out.println("12. Save all data to file");
 		System.out.println("13. Load all data from file");
 		
