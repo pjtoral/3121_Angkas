@@ -32,6 +32,10 @@ public class Booking {
 		this.completed = true;
 	}
 	
+	
+	/**
+	 * Override the toString() method of the Object class
+	 */
 	public String toString() {
 		String result = "\n[Booking]";
 		result += "\nCustomer: " + customer.getName();
