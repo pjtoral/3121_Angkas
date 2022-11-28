@@ -6,7 +6,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Angkas {
-	
+	/**
+	 * These are the Data Variables used
+	 */
 	private static final int arraySize = 10000;
 	
 	private static Location[] locations = new Location[arraySize];
