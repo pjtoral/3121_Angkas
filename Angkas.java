@@ -56,6 +56,7 @@ public class Angkas {
 	
 	private static int displayMenu() {
 		
+		//Displays the menu to the user
 		System.out.println("1. Add Driver");
 		System.out.println("2. Delete Driver");
 		System.out.println("3. Display Drivers");
