@@ -37,7 +37,7 @@ public class Booking {
 	 * Override the toString() method of the Object class
 	 */
 	public String toString() {
-		String result = "\n[Booking]";
+		String result = "\n Your Booking is: ";
 		result += "\nCustomer: " + customer.getName();
 		result += "\nDriver  : " + driver.getName();
 		result += "\nDate    : " + bookingDate;
