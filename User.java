@@ -13,7 +13,7 @@ public class User {
 		this.mobileNumber = mobileNumber;
 		this.SOScontactNumber = SOScontactNumber;
 	}
-	
+	//Setters and getters
 	public String getName() {
 		return this.name;
 	}
