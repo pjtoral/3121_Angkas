@@ -6,8 +6,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Angkas {
+<<<<<<< HEAD
 	
 	private static final int arraySize = 1000;
+=======
+	/**
+	 * These are the Data Variables used
+	 */
+	private static final int arraySize = 10000;
+>>>>>>> b7266a252d37d0909959ec07593c285f35ebebe1
 	
 	private static Location[] locations = new Location[arraySize];
 	private static Driver[] drivers = new Driver[arraySize];
@@ -51,7 +58,7 @@ public class Angkas {
 		
 		
 	}
-	
+//This method displays the Menu	
 	private static int displayMenu() {
 		
 		System.out.println("1. Add Driver");
