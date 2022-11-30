@@ -1,7 +1,11 @@
 import java.util.Date;
 
 public class Booking {
-	
+
+	/**
+	 *Private Repositories
+	 */
+
 	private Customer customer;
 	private Driver driver;
 	private Date bookingDate;
