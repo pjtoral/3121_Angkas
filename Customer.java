@@ -1,3 +1,6 @@
+/*
+Asks the customer to add name and mobile number.
+*/
 public class Customer extends User {
 	
 	Customer() {
