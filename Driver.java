@@ -17,7 +17,7 @@ public class Driver extends User {
 		}
 		return false;
 	}
-	
+	//Return driver's name and mobile number
 	public String toString() {
 		return "[Driver] " + name + ", " + mobileNumber;
 	}
