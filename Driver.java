@@ -9,6 +9,7 @@ public class Driver extends User {
 		super(name, mobileNumber);
 	}
 	
+	//checks if the name and number matches - Zulueta
 	public boolean equals(Driver d2) {
 		if (this.name.equals(d2.name)) {
 			if (this.mobileNumber == d2.mobileNumber) {
@@ -18,6 +19,7 @@ public class Driver extends User {
 		return false;
 	}
 	
+	//Prints name of driver and nummber - Zulueta
 	public String toString() {
 		return "[Driver] " + name + ", " + mobileNumber;
 	}
