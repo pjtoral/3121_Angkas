@@ -55,6 +55,9 @@ public class Angkas {
 		
 	}
 	
+	/* This method displays a list of options and prompts the user 
+	to input a number to choose from the given selection*/
+
 	private static int displayMenu() {
 		
 		System.out.println("1. Add Driver");
