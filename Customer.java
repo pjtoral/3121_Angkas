@@ -1,5 +1,6 @@
 public class Customer extends User {
 	
+	// Customer Class
 	Customer() {
 		
 	}
