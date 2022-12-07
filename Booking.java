@@ -1,7 +1,11 @@
 import java.util.Date;
 
 public class Booking {
-	
+
+	/**
+	 *Private Repositories
+	 */
+
 	private Customer customer;
 	private Driver driver;
 	private Date bookingDate;
@@ -18,14 +22,24 @@ public class Booking {
 		this.dropoff = dropoff;		
 	}
 	
+	/**
+	 * @return true if booking is completed
+	 */
 	protected boolean isCompleted() {
 		return completed;
 	}
 	
+	/**
+	 * This method will mark a booking as completed.
+	 */
 	protected void markAsCompleted() {
 		this.completed = true;
 	}
 	
+	
+	/**
+	 * Override the toString() method of the Object class
+	 */
 	public String toString() {
 		String result = "\n[Booking]";
 		result += "\nCustomer: " + customer.getName();
