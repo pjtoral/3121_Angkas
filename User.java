@@ -1,15 +1,17 @@
 public class User {
-	
+	//This is my comment hehe 
 	protected String name;
 	protected long mobileNumber;
-	
+	protected long SOScontactNumber;
+
 	User() {
 		name = "";
 	}
 	
-	User(String name, long mobileNumber) {
+	User(String name, long mobileNumber, long SOScontactNumber) {
 		this.name = name;
 		this.mobileNumber = mobileNumber;
+		this.SOScontactNumber = SOScontactNumber;
 	}
 	
 	public String getName() {
@@ -20,6 +22,10 @@ public class User {
 		return this.mobileNumber;
 	}
 	
+	public long getSOScontactNumber() {
+		return this.SOScontactNumber;
+	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -27,5 +33,8 @@ public class User {
 	public void setMobileNumber(long mobileNumber) {
 		this.mobileNumber = mobileNumber;
 	}
-	
+
+	public void setSOScontactNumber(long SOScontactNumber) {
+		this.SOScontactNumber = SOScontactNumber;
+	}
 }
