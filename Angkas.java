@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 // Class name
 public class Angkas {
-	/**
-	 * These are the Data Variables used
-	 */
-	private static final int arraySize = 10000;
+
+
+private static final int arraySize = 10000;
+private static final int arraySize = 10001;
 	
 	private static Location[] locations = new Location[arraySize];
 	private static Driver[] drivers = new Driver[arraySize];
