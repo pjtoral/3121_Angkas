@@ -11,8 +11,9 @@ public class Driver extends User {
 	{
 		super();
 	}
-	
-	public boolean equals(Driver d2) {	// Boolean Method to determine if the mobile numbers are equal
+
+	//checks if the name and number matches - Zulueta
+	public boolean equals(Driver d2) { // Boolean Method to determine if the mobile numbers are equal
 		if (this.name.equals(d2.name)) {
 			if (this.mobileNumber == d2.mobileNumber) {
 				return true;
@@ -21,7 +22,8 @@ public class Driver extends User {
 		return false;
 	}
 	
-	public String toString() {		// String toString() Method to returns the string itself
+
+	public String toString() { // String toString() Method to returns the string itself
 		return "[Driver] " + name + ", " + mobileNumber;
 	}
 	
