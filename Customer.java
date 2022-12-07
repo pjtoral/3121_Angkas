@@ -1,3 +1,5 @@
+//Vincent Joshua C. Adlaon 19102491
+
 public class Customer extends User {
 	
 	Customer() {
