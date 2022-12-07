@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 // Class name
 public class Angkas {
-	/**
-	 * These are the Data Variables used
-	 */
-	private static final int arraySize = 10000;
+
+
+private static final int arraySize = 10000;
+private static final int arraySize = 10001;
 	
 	private static Location[] locations = new Location[arraySize];
 	private static Driver[] drivers = new Driver[arraySize];
@@ -55,6 +55,9 @@ public class Angkas {
 		
 	}
 	
+	/* This method displays a list of options and prompts the user 
+	to input a number to choose from the given selection*/
+
 	private static int displayMenu() {
 		
 		System.out.println("1. Add Driver");
