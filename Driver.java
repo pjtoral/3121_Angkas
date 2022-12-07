@@ -2,15 +2,18 @@ public class Driver extends User {
 	
 	public int totalNumberOfBookings;
 	
-	Driver() {		
+	Driver()	// No-Arg Constructor 
+	{		
+		// body of the constructor
 	}
 	
-	Driver(String name, long mobileNumber) {
-		super(name, mobileNumber);
+	Driver(String name, long mobileNumber) // Constructor with two parameters
+	{
+		super();
 	}
-	
+
 	//checks if the name and number matches - Zulueta
-	public boolean equals(Driver d2) {
+	public boolean equals(Driver d2) { // Boolean Method to determine if the mobile numbers are equal
 		if (this.name.equals(d2.name)) {
 			if (this.mobileNumber == d2.mobileNumber) {
 				return true;
@@ -19,8 +22,8 @@ public class Driver extends User {
 		return false;
 	}
 	
-	//Prints name of driver and nummber - Zulueta
-	public String toString() {
+
+	public String toString() { // String toString() Method to returns the string itself
 		return "[Driver] " + name + ", " + mobileNumber;
 	}
 	
