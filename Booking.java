@@ -1,5 +1,7 @@
-import java.util.Date;
+//Alfonso Miguelle Branzuela
 
+import java.util.Date;
+//Class for booking appointments
 public class Booking {
 
 	/**
