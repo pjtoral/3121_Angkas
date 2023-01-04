@@ -4,11 +4,11 @@ public class Location {
 	private double latitude;
 	private double longitude;
 	
-	Location() {
+	public Location() {
 		address = "";
 	}
 	
-	Location(String address, double latitude, double longitude) {
+	public Location(String address, double latitude, double longitude) {
 		this.address = address;
 		this.latitude = latitude;
 		this.longitude = longitude;
